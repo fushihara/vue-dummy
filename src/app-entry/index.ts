@@ -4,4 +4,9 @@ const v2 = new HelloWorld({
     propTest: "vue-cli-service build --target appで、index.tsからpropを指定しています。",
   }
 });
+v2.$on("emit-test",()=>{
+  console.log("emit-test");
+  alert("emit-test");
+})
+
 v2.$mount("#app");
