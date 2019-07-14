@@ -5,7 +5,7 @@
   "main": "build-result/dev-lib-vue/vue-dummy.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:dev-lib-vue": "vue-cli-service build --target lib --mode development --name VueDummy --filename vue-dummy --dest \"./build-result/dev-lib-vue\" \"./src/HelloWorld.vue\"",
+    "build:dev-lib-vue": "vue-cli-service build --target lib --mode development --name VueDummy --filename vue-dummy --dest \"./build-result/dev-lib-vue\" \"./src/index.vue\"",
     "build": "npm run build:dev-lib-vue"
   },
   "files": [
